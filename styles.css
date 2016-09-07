@@ -1,0 +1,87 @@
+
+{
+	box-sizing: border-box;
+}
+
+body{
+	background:#FFFFFF;
+}
+
+#Topbar{
+	background:blue;
+	max-height:100px;
+	width:100%;
+	position:fixed;
+	text-align: left;
+	font-family: 'Rock Salt', cursive;
+	margin-bottom:6%;
+	border:solid white;
+}
+.Hamburger {
+	width:50px;
+	height:50px;
+}
+.TopBarHeading {
+	color:red;
+	font-size: 50px;
+	margin-bottom:3%;
+}
+
+.Friend{
+	height: 450px;
+	font-size: 30px;
+	width: 45%;
+	background:yellow;
+	float:left;
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:9%;
+	margin-bottom:2%;
+	border:solid black;
+}
+
+.Friend:hover{
+	background:#9B9B41;
+}
+
+.name {
+	font-family: 'Baloo Paaji', cursive;
+	text-align:right;
+	font-size:50px;
+
+}
+
+.pic {
+	align-content: left;
+	width:200px;
+	height:200px;
+	margin-left:5%;
+}
+
+.email {
+	text-align:right;
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
+}
+
+.Desc {
+	text-align:left;
+	font-size:30px;
+	font-family: 'Indie Flower', cursive;
+}
+@media screen and (min-width: 500px){
+	#Topbar {
+		background: grey;
+		border:solid black;
+	}
+	.TopBarHeading {
+		color: black;
+	}
+	.Friend{
+		background:gray;
+		border:solid black;
+	}
+	.Friend:hover{
+	background:gray;
+}
+}
